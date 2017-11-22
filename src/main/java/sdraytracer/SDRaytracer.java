@@ -45,7 +45,6 @@ public class SDRaytracer extends JFrame {
     private float fovx = (float) 0.628;
     private float fovy = (float) 0.628;
     private RGB ambient_color = new RGB(0.01f, 0.01f, 0.01f);
-    private RGB background_color = new RGB(0.05f, 0.05f, 0.05f);
     private RGB black = new RGB(0.0f, 0.0f, 0.0f);
     private int y_angle_factor = 4, x_angle_factor = -4;
 
@@ -61,10 +60,9 @@ public class SDRaytracer extends JFrame {
     private void profileRenderImage() {
         long end, start, time;
 
-        renderImage(); // initialisiere Datenstrukturen, erster Lauf verf�lscht sonst Messungen
+        renderImage(); // initialisiere Datenstrukturen, erster Lauf verfälscht sonst Messungen
 
         for (int procs = 1; procs < 6; procs++) {
-
             maxRec = procs - 1;
             System.out.print(procs);
             for (int i = 0; i < 10; i++) {
@@ -254,6 +252,4 @@ public class SDRaytracer extends JFrame {
         m.print();
         m.apply(triangles);
     }
-
 }
-

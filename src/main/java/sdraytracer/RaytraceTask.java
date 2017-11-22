@@ -5,12 +5,9 @@ import sdraytracer.datatypes.Ray;
 
 import java.util.concurrent.Callable;
 
-/**
- * Created by wolz on 21.11.17.
- */
 class RaytraceTask implements Callable {
-    SDRaytracer tracer;
-    int i;
+    private SDRaytracer tracer;
+    private int i;
 
     RaytraceTask(SDRaytracer t, int ii) {
         tracer = t;
