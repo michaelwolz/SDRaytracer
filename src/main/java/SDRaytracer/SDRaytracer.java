@@ -1,4 +1,8 @@
-import datatypes.*;
+package SDRaytracer;
+
+import SDRaytracer.datatypes.*;
+import SDRaytracer.scenes.Scenes;
+import SDRaytracer.util.Profiler;
 
 import javax.swing.*;
 import java.awt.*;
@@ -32,7 +36,7 @@ public class SDRaytracer extends JFrame {
     private Light lights[] = new Light[]{mainLight
             , new Light(new Vec3D(100, 200, 300), new RGB(0.5f, 0, 0.0f))
             , new Light(new Vec3D(-100, 200, 300), new RGB(0.0f, 0, 0.5f))
-            //,new sdraytracer.datatypes.Light(new sdraytracer.datatypes.Vec3D(-100,0,0), new sdraytracer.datatypes.RGB(0.0f,0.8f,0.0f))
+            //,new sdraytracer.SDRaytracer.datatypes.Light(new sdraytracer.SDRaytracer.datatypes.Vec3D(-100,0,0), new sdraytracer.SDRaytracer.datatypes.RGB(0.0f,0.8f,0.0f))
     };
 
     RGB[][] image = new RGB[width][height];

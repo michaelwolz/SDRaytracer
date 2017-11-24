@@ -1,4 +1,4 @@
-package datatypes;
+package SDRaytracer.datatypes;
 
 import java.util.List;
 

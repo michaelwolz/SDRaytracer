@@ -1,4 +1,4 @@
-package datatypes;
+package SDRaytracer.datatypes;
 
 public class Vec3D {
     float x, y, z, w = 1;

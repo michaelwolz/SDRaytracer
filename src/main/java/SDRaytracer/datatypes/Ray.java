@@ -1,4 +1,4 @@
-package datatypes;
+package SDRaytracer.datatypes;
 
 public class Ray {
     public Vec3D start = new Vec3D(0, 0, 0);
