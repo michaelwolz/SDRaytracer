@@ -1,4 +1,4 @@
-package sdraytracer.datatypes;
+package SDRaytracer.datatypes;
 
 public class Light {
     public RGB color;

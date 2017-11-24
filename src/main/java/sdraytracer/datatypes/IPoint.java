@@ -1,4 +1,4 @@
-package sdraytracer.datatypes;
+package SDRaytracer.datatypes;
 
 public class IPoint {
     public final static float epsilon = 0.0001f;
