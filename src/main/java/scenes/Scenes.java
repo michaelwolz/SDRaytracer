@@ -1,8 +1,8 @@
-package SDRaytracer.scenes;
+package scenes;
 
-import SDRaytracer.datatypes.Matrix;
-import SDRaytracer.datatypes.RGB;
-import SDRaytracer.datatypes.Triangle;
+import datatypes.Matrix;
+import datatypes.RGB;
+import datatypes.Triangle;
 
 import java.util.List;
 
