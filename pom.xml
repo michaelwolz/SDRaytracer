@@ -7,4 +7,20 @@
     <groupId>de.unitrier.st.fst17</groupId>
     <artifactId>sdraytracer</artifactId>
     <version>0.1</version>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.ow2.asm/asm -->
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>5.2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.ow2.asm/asm-commons -->
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-commons</artifactId>
+            <version>5.2</version>
+        </dependency>
+    </dependencies>
 </project>
